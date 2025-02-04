@@ -23,6 +23,9 @@ header h2 {
 
 img {
     float: left;
+    margin-right: 15px;
+}
+
 }
 
 .shadow {
