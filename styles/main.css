@@ -1,13 +1,13 @@
-/* Background Gradient for the Page */
+/* Page Background */
 html {
     background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 }
 
-/* Body Styling */
+/* Body Style */
 body {
     width: 1000px;
     background-color: white;
-    margin: 15px auto; /* Centers the page */
+    margin: 15px auto; /* Centers the content */
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
 }
 
-/* Styling for Headings */
+/* Headings */
 h3 {
     margin: 3em 2em 1.5em 2em;
     border: 5px double blue;
@@ -26,7 +26,7 @@ h3 {
     padding: 1em;
 }
 
-/* Navigation Bar Styling */
+/* Navigation Bar */
 nav {
     margin: 1.5em 2em 1.5em 2em;
     border: 5px dashed blue;
@@ -35,7 +35,7 @@ nav {
     padding: 0.5em;
 }
 
-/* Contact Section Styling */
+/* Contact Section */
 .contact {
     margin: 1.5em 2em 0 2em;
     border: 5px dotted blue;
@@ -44,7 +44,7 @@ nav {
     padding: 1em;
 }
 
-/* Image Alignment */
+/* Align Image */
 img {
-    margin-left: 2em; /* Aligns with h3, nav, and contact div */
+    margin-left: 2em; /* Makes sure it aligns with headings and other content */
 }
