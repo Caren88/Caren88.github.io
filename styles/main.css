@@ -1,50 +1,50 @@
+/* Background Gradient for the Page */
+html {
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+
+/* Body Styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin-left: 10px;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto; /* Centers the page */
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 
-a:hover, a:focus {
-    font-style: italic;
-    color: orangered;
+/* Styling for Headings */
+h3 {
+    margin: 3em 2em 1.5em 2em;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
 
-header h1 {
-    font-size: 200%;
-    color: maroon;
-    text-shadow: 2px 2px 5px gray;
+/* Navigation Bar Styling */
+nav {
+    margin: 1.5em 2em 1.5em 2em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
 }
 
-header h2 {
-    font-size: 150%;
-    color: darkred;
-    font-weight: bold;
+/* Contact Section Styling */
+.contact {
+    margin: 1.5em 2em 0 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
 
+/* Image Alignment */
 img {
-    float: left;
-    margin-right: 15px;
-}
-
-
-.shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
-}
-
-main {
-    clear: left;
-}
-
-main h3 {
-    margin-top: 3em;
-    font-size: 105%;
-}
-
-#list {
-    line-height: 2em;
-}
-
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
+    margin-left: 2em; /* Aligns with h3, nav, and contact div */
 }
