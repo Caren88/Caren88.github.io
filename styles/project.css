@@ -1,0 +1,80 @@
+/* Background Gradient */
+html {
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
+
+/* Body Style */
+body {
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+/* Link Hover Effects */
+a:hover, a:focus {
+    border: 3px blue;
+    border-style: dotted solid;
+}
+
+/* Article Styling */
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+
+/* Article Heading */
+article h3 {
+    column-span: all;
+}
+
+/* Article Image */
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/* First Letter in Article */
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+
+/* Aside Section */
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+    padding: 1em;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+}
+
+/* Fixed Contact Text */
+p.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
