@@ -1,50 +1,26 @@
-/* Page Background */
-html {
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
-}
-
-/* Body Style */
-body {
-    width: 1000px;
-    background-color: white;
-    margin: 15px auto; /* Centers the content */
-    padding: 15px 1.5em;
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
-    background-position: right;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-}
-
-/* Headings */
+/* H3 Styling */
 h3 {
     margin: 3em 2em 1.5em 2em;
-    border: 5px double blue;
+    border: 5px double blue;  /* Ensures it is double and blue */
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px red;  /* Keeps only red, removes blue */
     padding: 1em;
 }
 
 /* Navigation Bar */
 nav {
     margin: 1.5em 2em 1.5em 2em;
-    border: 5px dashed blue;
+    border: 5px dashed blue;  /* Keeps the dashed blue */
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px red;  /* Ensures only red */
     padding: 0.5em;
 }
 
 /* Contact Section */
 .contact {
     margin: 1.5em 2em 0 2em;
-    border: 5px dotted blue;
+    border: 5px dotted blue;  /* Keeps the dotted blue */
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px red;  /* Ensures only red */
     padding: 1em;
-}
-
-/* Align Image */
-img {
-    margin-left: 2em; /* Makes sure it aligns with headings and other content */
 }
