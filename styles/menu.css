@@ -1,0 +1,58 @@
+/* Style for Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Style for Article Section */
+article {
+    width: 70%;
+    float: left;
+}
+
+article h2 {
+    margin-top: 20px;
+}
+
+/* Style for Aside Section */
+aside {
+    width: 25%;
+    float: right;
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
