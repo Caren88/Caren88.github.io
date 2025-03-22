@@ -1,10 +1,10 @@
 body {
   width: 95%;
   margin: 15px auto;
-  background-image: url('download.jpg'); /* change this if you want a new background */
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 400px auto;
+  background-image: url('download.jpg'); /* Change this to another image if needed */
+  background-repeat: repeat-y;
+  background-position: right top;
+  background-size: 250px auto;
   background-attachment: fixed;
   font-family: Arial, sans-serif;
 }
