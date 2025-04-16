@@ -90,7 +90,8 @@ section a {
   color: white;
 }
 
-.menu a:hover, a.current {
+.menu a:hover,
+a.current {
   text-decoration: underline;
 }
 
@@ -178,4 +179,16 @@ footer {
     text-align: center;
     font-size: .6em;
   }
+}
+
+/* Hides the heading from view but keeps it for screen readers and validator */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
