@@ -8,7 +8,7 @@ html, body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-/*------------------- Table 1 -------------------*/
+/* Table 1 */
 table.first {
   border-collapse: separate;
   border: 2px solid black;    
@@ -22,7 +22,7 @@ table.first tr:nth-child(odd) {
   background-color: lightblue;
 }
 
-/*------------------- Table 2 -------------------*/
+/* Table 2 */
 table.second {    
   border-collapse: collapse; 
   border: 2px solid purple;   
@@ -43,7 +43,38 @@ table.second thead tr:first-child {
   border-bottom: 2px solid purple;
 }
 
-/*------------------- Responsive -------------------*/
+/* Table 3 */
+table.third {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid orangered;
+  caption-side: top;
+  margin-top: 2em;
+}
+
+table.third th, table.third td {
+  border: 2px solid orangered;
+  padding: 0.5em;
+  vertical-align: top;
+  text-align: left;
+}
+
+table.third thead tr:first-child {
+  border-top: 2px solid orangered;
+  background-color: peachpuff;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.third thead tr:nth-child(2) {
+  background-color: #fdd;
+}
+
+table.third tbody tr:last-child {
+  border-bottom: 2px solid orangered;
+}
+
+/* Responsive */
 @media only screen and (max-width: 425px) {
   th, td {
     display: block;
