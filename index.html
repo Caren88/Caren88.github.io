@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">  <!-- Fixes character encoding issue -->
-    <title>My Webpage</title>
-    <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website for the Information Technology Student Association (ITSA) at SHSU. Learn about officers, events, and how to join.">
+  <meta name="keywords" content="ITSA, SHSU, technology, student organization, events">
+  <title>ITSA at SHSU</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, nav, section, footer { padding: 20px; }
+    header { background-color: #003366; color: white; text-align: center; }
+    nav { background-color: #eee; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #003366; }
+    section { max-width: 900px; margin: auto; }
+    footer { background-color: #003366; color: white; text-align: center; }
+    img { max-width: 100%; height: auto; }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="SmileyFace.jpg" alt="My Picture" style="width: 100px; height: auto;">
-    </header>
+  <header>
+    <h1>Information Technology Student Association (ITSA)</h1>
+    <p>Sam Houston State University</p>
+  </header>
 
-    <h1>Welcome to my website!</h1>
-    <h2>https://Caren88.github.io</h2>
-    <h3>Hi, I'm Caren! This is my personal page where I talk about my projects and experiences.</h3>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#officers">Officers</a>
+    <a href="#events">Events</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <nav>
-        <ul>
-            <li>Education</li>
-            <li>Experience</li>
-            <li>Projects</li>
-        </ul>
-    </nav>
+  <section id="about">
+    <h2>About ITSA</h2>
+    <p>ITSA is a student organization at SHSU dedicated to fostering interest and skill in technology. We host events, workshops, and competitions to support student growth and professional development.</p>
+  </section>
 
-    <p><a href="#">Class Project</a></p>
+  <section id="officers">
+    <h2>Meet Our Officers</h2>
+    <p>Our 2025 Officers:</p>
+    <ul>
+      <li>President: Alex Martinez</li>
+      <li>Vice President: Taylor Johnson</li>
+      <li>Secretary: Jamie Chen</li>
+      <li>Treasurer: Jordan Lee</li>
+    </ul>
+  </section>
 
-    <!-- Contact Section -->
-    <div class="contact">
-        <p><a href="Updated.CE.NewResume.pdf" download>Click here to get my resume</a></p>
-        <p><a href="https://www.linkedin.com/in/caren-espinoza-3a9897330/" target="_blank">Check out my LinkedIn</a></p>
-        <p><a href="mailto:cxe034@shsu.edu"><em>Email me at cxe034@shsu.edu</em></a></p>
-    </div>
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>We hold monthly meetings and tech events! Check our social media for updates.</p>
+  </section>
 
-    <p>This is my first time making a website using GitHub Pages.</p>
-    <br>
-    <hr>
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <p>Students participate in competitions such as USITCC and collaborate on tech challenges using real-world tools.</p>
+  </section>
 
-    <footer>
-        &copy; 2024 Caren. All rights reserved.
-    </footer>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:kamphol@shsu.edu">kamphol@shsu.edu</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ITSA @ SHSU. All rights reserved.</p>
+  </footer>
 </body>
 </html>
